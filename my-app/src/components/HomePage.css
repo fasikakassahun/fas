@@ -1,0 +1,32 @@
+/* Add new color classes for cinema vibe */
+.text-cinema-title {
+  color: #f4c842; /* Golden yellow for movie title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.text-cinema-details {
+  color: #d1d1d1; /* Light gray for rating, duration, etc. */
+}
+
+.text-cinema-description {
+  color: #ffffff; /* White for description text */
+  font-weight: bold;
+}
+
+.text-cinema-tags {
+  color: #b3b3b3; /* Dim gray for genre tags */
+}
+
+.bg-cinema-rating {
+  background-color: #f4c842; /* Golden rating background */
+}
+
+/* Additional button styling for cinematic effect */
+.play-btn, .back-btn {
+  box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Add a red color for the rating stars */
+.text-red-600 {
+  color: #ff4c4c;
+}

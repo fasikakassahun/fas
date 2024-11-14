@@ -1,0 +1,50 @@
+body{
+  background-color:aqua;
+}
+.bmi-container {
+  background-color: aliceblue;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.bmi-container:hover{
+  background-color: #2980b9; /* Background color on hover */
+  transform: scale(1.1); /* Scale up the box on hover */
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  margin-right: 10px;
+}
+
+.input-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.result-group {
+  margin-top: 20px;
+}
+
+.result-group p {
+  margin-bottom: 10px;
+}
+.button{
+  color:black;
+}
+.calculate-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Default background color */
+  color: white; /* Default text color */
+  cursor: pointer; /* Change cursor to pointer */
+}
